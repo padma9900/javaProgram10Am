@@ -1,0 +1,63 @@
+
+// saved in Refrigerator1 wap for constructor using parameterized and constroctor overloading
+
+class Refrigerator 
+{
+	static String brand="LG";
+	int price;
+	String clr;
+	String door;
+	int warrenty;
+	int star;
+	String voltage;
+	 String storage;
+
+	void refrigerator()
+	     {
+			System.out.println("ice making");
+			System.out.println("coolling");
+			System.out.println("food storage");
+		}
+
+Refrigerator(); 
+	{
+  clr="purple";
+  warrenty=1;
+  door="single";
+  voltage="100v-290v";
+  storage="190ltr";
+  price=16990;
+  star=3;
+	}
+
+Refrigerator(); 
+	{
+  clr="purple";
+  warrenty=1;
+  door="single";
+  voltage="100v-290v";
+  storage="190ltr";
+  price=16990;
+  star=3;
+	}
+
+
+Refrigerator(); 
+	{
+  clr="purple";
+  warrenty=1;
+  door="single";
+  voltage="100v-290v";
+  storage="190ltr";
+  price=16990;
+  star=3;
+	}
+}
+class MainRunning
+{
+	public static void main(String[] args) 
+	{
+		Refrigerator r=new Refrigerator();
+		System.out.println(r.clr+"  "+r.warrenty+"   "+r.door+"  "+r.voltage+"   "+r.storage+"  "+r.price+"  "+r.star+Refrigerator.brand);
+	}
+}

@@ -1,0 +1,24 @@
+class Dopalindrome 
+{
+	public static void main(String[] args) 
+	{
+		int n=1001;
+			int rev=0;
+			int temp=1;
+		do{
+			int digit=n%10;
+				rev=rev*10+digit;
+			n=n/10;
+			if(rev==temp)
+			{
+           System.out.println("palindrome" +rev);
+			}
+			else
+			{
+			System.out.println("not a palindrome");
+			}
+		  }while(n>0);
+
+		
+	}
+}
